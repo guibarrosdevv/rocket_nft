@@ -1,6 +1,11 @@
-body {
-        background-image: url(assets/background.png);
+.section-1 {
+    background-image: url(assets/background.png);
 }
+
+.section-2 {
+    background-color: #000000;
+}
+
 
 /* Por padrão, esconda ambos os botões */
 .button-mobile,
@@ -9,17 +14,17 @@ body {
 .titulo-desktop,
 .paragrafo-mobile,
 .paragrafo-desktop {
-    display: none; 
+    display: none;
 }
 
-/* Media query para exibir o botão mobile em telas menores que 992px */
+/* Media query para telas menores que 992px */
 @media only screen and (max-width: 991px) {
     .button-mobile {
-        display: block; 
+        display: block;
     }
 
     .explore-a-arte {
-        display: none; 
+        display: none;
     }
 
     .titulo-mobile {
@@ -29,9 +34,13 @@ body {
     .paragrafo-mobile {
         display: block;
     }
+
+    .section-1 {
+        padding-bottom: 15px;
+    }
 }
 
-/* Media query para exibir o botão desktop em telas maiores ou iguais a 992px */
+/* Media query para telas maiores ou iguais a 992px */
 @media only screen and (min-width: 992px) {
     .button-desktop {
         display: block;
@@ -43,5 +52,29 @@ body {
 
     .paragrafo-desktop {
         display: block;
+    }
+}
+
+/* Media query para telas menores ou iguais a 700px */
+@media only screen and (max-width: 700px) {
+
+    #info-arte-mobile {
+        display: flex;
+    }
+
+    #numeros-arte-desktop {
+        display: none;
+    }
+
+    #info-arte-desktop {
+        display: none;
+    }
+}
+
+/* Media query para telas maiores ou iguais a 701px */
+@media only screen and (min-width: 701px) {
+
+    #info-arte-mobile {
+        display: none;
     }
 }
