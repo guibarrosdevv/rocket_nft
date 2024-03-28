@@ -1,3 +1,47 @@
 body {
         background-image: url(assets/background.png);
 }
+
+/* Por padrão, esconda ambos os botões */
+.button-mobile,
+.button-desktop,
+.titulo-mobile,
+.titulo-desktop,
+.paragrafo-mobile,
+.paragrafo-desktop {
+    display: none; 
+}
+
+/* Media query para exibir o botão mobile em telas menores que 992px */
+@media only screen and (max-width: 991px) {
+    .button-mobile {
+        display: block; 
+    }
+
+    .explore-a-arte {
+        display: none; 
+    }
+
+    .titulo-mobile {
+        display: block;
+    }
+
+    .paragrafo-mobile {
+        display: block;
+    }
+}
+
+/* Media query para exibir o botão desktop em telas maiores ou iguais a 992px */
+@media only screen and (min-width: 992px) {
+    .button-desktop {
+        display: block;
+    }
+
+    .titulo-desktop {
+        display: block;
+    }
+
+    .paragrafo-desktop {
+        display: block;
+    }
+}
