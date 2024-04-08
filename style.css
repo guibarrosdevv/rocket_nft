@@ -26,6 +26,41 @@
     max-width: 350px;
 }
 
+
+#footer {
+    background-color: #252525;
+}
+
+.links-footer {
+    color: #5A5757;
+    transition: color 0.3s ease;
+}
+
+.links-footer:hover {
+    color: white;
+    text-decoration: none; 
+}
+
+#artistas-all {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#artistas-all:hover {
+    color:  #5A5757;
+    text-decoration: none;
+}
+
+#links {
+    color: white;
+    transition: color 0.3s ease;
+}
+
+#links:hover {
+    color:  #5A5757;
+    text-decoration: none;
+}
+
 /* Media query para telas menores que 992px */
 @media only screen and (max-width: 991px) {
     .button-mobile {
@@ -64,6 +99,24 @@
     }
 }
 
+/* Media query para telas menores ou iguais a 767px */
+@media only screen and (max-width: 767px) {
+    #cadastro-info-footer {
+      display: inline;
+      width: 100%; 
+    }
+
+    #infos {
+        border-top: none !important;
+        border-left: none !important;
+        margin-bottom: 50px;
+    }
+
+    #input-email-footer {
+        max-width: 400px;
+    }
+}
+
 /* Media query para telas menores ou iguais a 700px */
 @media only screen and (max-width: 700px) {
 
@@ -86,39 +139,5 @@
     #info-arte-mobile {
         display: none;
     }
-}
-
-#footer {
-    background-color: #252525;
-}
-
-.links-footer {
-    color: #5A5757;
-    transition: color 0.3s ease;
-}
-
-.links-footer:hover {
-    color: white;
-    text-decoration: none; 
-}
-
-#artistas-all {
-    color: white;
-    transition: color 0.3s ease;
-}
-
-#artistas-all:hover {
-    color:  #5A5757;
-    text-decoration: none;
-}
-
-#links {
-    color: white;
-    transition: color 0.3s ease;
-}
-
-#links:hover {
-    color:  #5A5757;
-    text-decoration: none;
 }
 
