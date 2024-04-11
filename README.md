@@ -4,7 +4,7 @@ Este projeto foi desenvolvido como parte de um desafio da RocketSeat com o objet
 ### Design no Figma
 O design da página foi fornecido pela RocketSeat através de um protótipo no Figma. Este design foi utilizado como referência principal durante o desenvolvimento.
 
-Link para o design no Figma
+[Link para o design no Figma]([https://www.google.com](https://www.figma.com/file/rBj24mem4zbC4ZosOGEDRN/Rocket-NFTs-%E2%80%A2-Desafio-Discover-(Community)?type=design&node-id=0-1&mode=design&t=aIH4LDvXZDGhod0W-0)).
 
 ### Tecnologias Utilizadas
 - HTML
