@@ -10,9 +10,6 @@ Link para o design no Figma: https://www.google.com](https://www.figma.com/file/
 - HTML
 - CSS
 - Bootstrap
-  
-### Estrutura do Projeto
-A estrutura do projeto é organizada da seguinte forma:
 
 ### Responsividade
 O projeto foi desenvolvido com foco na responsividade, garantindo uma boa experiência de usuário em dispositivos móveis e tablets.
