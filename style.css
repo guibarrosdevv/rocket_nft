@@ -17,6 +17,11 @@
     display: none;
 }
 
+#img-banner {
+    width: 100% !important;
+
+}
+
 #img-galery {
     max-width: 350px;
 }
@@ -38,7 +43,7 @@
 
 .links-footer:hover {
     color: white;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 #artistas-all {
@@ -47,7 +52,7 @@
 }
 
 #artistas-all:hover {
-    color:  #5A5757;
+    color: #5A5757;
     text-decoration: none;
 }
 
@@ -57,8 +62,22 @@
 }
 
 #links:hover {
-    color:  #5A5757;
+    color: #5A5757;
     text-decoration: none;
+}
+
+/* Media query para telas maiores ou iguais a 1390px */
+@media only screen and (min-width: 1391px) {
+    .img-banner-ate-1390px {
+        display: none;
+    }
+}
+
+/* Media query para telas menores ou iguais a 1390px */
+@media only screen and (max-width: 1390px) {
+    #img-banner {
+        display: none;
+    }
 }
 
 /* Media query para telas menores que 992px */
@@ -102,8 +121,8 @@
 /* Media query para telas menores ou iguais a 767px */
 @media only screen and (max-width: 767px) {
     #cadastro-info-footer {
-      display: inline;
-      width: 100%; 
+        display: inline;
+        width: 100%;
     }
 
     #infos {
@@ -140,4 +159,3 @@
         display: none;
     }
 }
-
