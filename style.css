@@ -170,7 +170,7 @@ align-items: center;
 }
 
 #img-galery {
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
 
 #h1-populares-da-semana {
