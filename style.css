@@ -159,3 +159,21 @@
         display: none;
     }
 }
+
+
+/* Media query para telas menores ou iguais a 575px */
+@media only screen and (max-width: 575px) {
+#populares-da-semana {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#img-galery {
+    margin-top: 30px;
+}
+
+#h1-populares-da-semana {
+    margin-bottom: 10px !important;
+}
+}
