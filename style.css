@@ -28,6 +28,7 @@
 
 #card-melhores-artistas {
     background-color: #252525;
+    min-width: 330px;
     max-width: 350px;
 }
 
@@ -64,6 +65,13 @@
 #links:hover {
     color: #5A5757;
     text-decoration: none;
+}
+
+#numeros-arte-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* Media query para telas maiores ou iguais a 1390px */
