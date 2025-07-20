@@ -7,7 +7,7 @@ Este projeto foi desenvolvido como parte de um desafio da [Rocketseat](https://w
 ## 🌐 Página do Projeto
 
 👉 Acesse o projeto publicado:  
-[https://guibarross.github.io/rocket-nft/](https://guibarross.github.io/rocket-nft/)
+[https://rocket-nft-nu.vercel.app/](https://rocket-nft-nu.vercel.app/)
 
 ---
 
