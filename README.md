@@ -1,19 +1,34 @@
-# Rocket NFT
-Este projeto foi desenvolvido como parte de um desafio da RocketSeat com o objetivo de praticar habilidades em desenvolvimento front-end. A página foi criada com base em um design fornecido no Figma, utilizando HTML, CSS e Bootstrap para implementação e responsividade.
+# 🚀 Rocket NFT
 
-### Página de exibição do projeto:
-Para ver o funcionamento do projeto, acesse o link: https://guibarross.github.io/rocket-nft/
+Este projeto foi desenvolvido como parte de um desafio da [Rocketseat](https://www.rocketseat.com.br/) com o objetivo de praticar habilidades em desenvolvimento front-end. A proposta foi transformar um layout do Figma em uma página web funcional e responsiva, utilizando HTML, CSS e Bootstrap.
 
-### Design no Figma
-O design da página foi fornecido pela RocketSeat através de um protótipo no Figma. Este design foi utilizado como referência principal durante o desenvolvimento.
+---
 
-Link para o design no Figma: https://www.figma.com/file/rBj24mem4zbC4ZosOGEDRN/Rocket-NFTs-%E2%80%A2-Desafio-Discover-(Community)?type=design&node-id=0-1&mode=design&t=aIH4LDvXZDGhod0W-0.
+## 🌐 Página do Projeto
 
-### Tecnologias Utilizadas
-- HTML
-- CSS
-- Bootstrap
+👉 Acesse o projeto publicado:  
+[https://guibarross.github.io/rocket-nft/](https://guibarross.github.io/rocket-nft/)
 
-### Responsividade
-O projeto foi desenvolvido com foco na responsividade, garantindo uma boa experiência de usuário em dispositivos móveis e tablets.
+---
 
+## 🎨 Design no Figma
+
+O layout foi fornecido pela Rocketseat através de um protótipo no Figma. Ele serviu como guia principal durante toda a implementação visual e estrutural da página.
+
+🔗 [Ver design no Figma](https://www.figma.com/file/rBj24mem4zbC4ZosOGEDRN/Rocket-NFTs-%E2%80%A2-Desafio-Discover-(Community)?type=design&node-id=0-1&mode=design&t=aIH4LDvXZDGhod0W-0)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5**  
+- **CSS3**  
+- **Bootstrap 4.6**
+
+---
+
+## 📱 Responsividade
+
+O projeto foi construído com foco em responsividade, garantindo uma boa experiência de usuário em diferentes dispositivos, como celulares e tablets.
+
+---
