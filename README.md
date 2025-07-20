@@ -4,6 +4,14 @@ Este projeto foi desenvolvido como parte de um desafio da [Rocketseat](https://w
 
 ---
 
+## 📸 Capturas de Tela
+
+| 💻 Desktop | 📱 Mobile |
+|-----------|-----------|
+| ![Desktop](./assets/screenshot-desktop.png) | ![Mobile](./assets/screenshot-mobile.png) |
+
+---
+
 ## 🌐 Página do Projeto
 
 👉 Acesse o projeto publicado:  
