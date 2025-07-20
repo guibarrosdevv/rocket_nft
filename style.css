@@ -1,3 +1,197 @@
-body {
+.section-1 {
         background-image: url(assets/background.png);
-}
+    }
+    
+    .section-2 {
+        background-color: #000000;
+    }
+    
+    
+    /* Por padrão, esconda ambos os botões */
+    .button-mobile,
+    .button-desktop,
+    .titulo-mobile,
+    .titulo-desktop,
+    .paragrafo-mobile,
+    .paragrafo-desktop {
+        display: none;
+    }
+    
+    #img-banner {
+        width: 100% !important;
+    
+    }
+    
+    #img-galery {
+        max-width: 350px;
+    }
+    
+    #card-melhores-artistas {
+        background-color: #252525;
+        min-width: 330px;
+        max-width: 350px;
+    }
+    
+    
+    #footer {
+        background-color: #252525;
+    }
+    
+    .links-footer {
+        color: #5A5757;
+        transition: color 0.3s ease;
+    }
+    
+    .links-footer:hover {
+        color: white;
+        text-decoration: none;
+    }
+    
+    #artistas-all {
+        color: white;
+        transition: color 0.3s ease;
+    }
+    
+    #artistas-all:hover {
+        color: #5A5757;
+        text-decoration: none;
+    }
+    
+    #links {
+        color: white;
+        transition: color 0.3s ease;
+    }
+    
+    #links:hover {
+        color: #5A5757;
+        text-decoration: none;
+    }
+    
+    #numeros-arte-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    /* Media query para telas maiores ou iguais a 1390px */
+    @media only screen and (min-width: 1391px) {
+        .img-banner-ate-1390px {
+            display: none;
+        }
+    }
+    
+    /* Media query para telas menores ou iguais a 1390px */
+    @media only screen and (max-width: 1390px) {
+        #img-banner {
+            display: none;
+        }
+    }
+    
+    /* Media query para telas menores que 992px */
+    @media only screen and (max-width: 991px) {
+        .button-mobile {
+            display: block;
+        }
+    
+        .explore-a-arte {
+            display: none;
+        }
+    
+        .titulo-mobile {
+            display: block;
+        }
+    
+        .paragrafo-mobile {
+            display: block;
+        }
+    
+        .section-1 {
+            padding-bottom: 15px;
+        }
+    }
+    
+    /* Media query para telas maiores ou iguais a 992px */
+    @media only screen and (min-width: 992px) {
+        .button-desktop {
+            display: block;
+        }
+    
+        .titulo-desktop {
+            display: block;
+        }
+    
+        .paragrafo-desktop {
+            display: block;
+        }
+    }
+    
+    /* Media query para telas menores ou iguais a 767px */
+    @media only screen and (max-width: 767px) {
+        #cadastro-info-footer {
+            display: inline;
+            width: 100%;
+        }
+    
+        #infos {
+            border-top: none !important;
+            border-left: none !important;
+            margin-bottom: 50px;
+        }
+    
+        #input-email-footer {
+            max-width: 400px;
+        }
+    
+        #melhores-artistas-all {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #melhores-artistas-info {
+            padding-bottom: 16px;
+        }
+    }
+    
+    /* Media query para telas menores ou iguais a 700px */
+    @media only screen and (max-width: 700px) {
+    
+        #info-arte-mobile {
+            display: flex;
+        }
+    
+        #numeros-arte-desktop {
+            display: none;
+        }
+    
+        #info-arte-desktop {
+            display: none;
+        }
+    }
+    
+    /* Media query para telas maiores ou iguais a 701px */
+    @media only screen and (min-width: 701px) {
+    
+        #info-arte-mobile {
+            display: none;
+        }
+    }
+    
+    
+    /* Media query para telas menores ou iguais a 575px */
+    @media only screen and (max-width: 575px) {
+    #populares-da-semana {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    #img-galery {
+        margin-top: 30px !important;
+    }
+    
+    #h1-populares-da-semana {
+        margin-bottom: 10px !important;
+    }
+    }

@@ -13,64 +13,505 @@
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
         crossorigin="anonymous"></script>
     <title>Rocket NFTs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="px-md-5 px-3 py-md-5">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-trasparent px-0">
-            <div>
-                <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/logo.svg" alt="Logo Rocket NFTs"></a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link text-white mr-md-4" href="#">Comprar NFT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white mr-md-4" href="#">Sobre</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="#">FAQ</a>
-                </li>
-              </ul>
-              <div>
-                <a class="btn btn-light font-weight-bolder" type="button" href="#"><img src="assets/logo_MetaMask.svg"
-                        alt="Wallet MetaMask"> Conectar carteira</a>
-            </div>
-            </div>
-          </nav>
-        <!-- <nav class="navbar navbar-expand-lg bg-transparent">
-            <div>
-                <a class="navbar-brand" href="#"><img src="assets/logo.svg" alt="Logo Rocket NFTs"></a>
-            </div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-md-flex justify-content-md-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link text-white mr-md-4" href="#">Comprar NFT</a>
-                    <a class="nav-link text-white mr-md-4" href="#">Sobre</a>
-                    <a class="nav-link text-white" href="#">FAQ</a>
+    <div class="section-1" id="section-1">
+            <div class="px-md-5 pt-md-5 px-3">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-trasparent px-0 pt-md-0">
+                <div>
+                    <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/logo.svg"
+                            alt="Logo Rocket NFTs"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-lg-flex justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link mr-md-4" href="#" id="links">Comprar NFT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-md-4" href="#" id="links">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" id="links">FAQ</a>
+                        </li>
+                    </ul>
+                    <div class="button-mobile">
+                        <a class="btn btn-light font-weight-bolder" type="button" href="#"><img
+                                src="assets/logo_MetaMask.svg" alt="Wallet MetaMask"> Conectar carteira</a>
+                    </div>
+                </div>
+                <div class="button-desktop">
+                    <a class="btn btn-light font-weight-bolder" type="button" href="#"><img
+                            src="assets/logo_MetaMask.svg" alt="Wallet MetaMask"> Conectar carteira</a>
+                </div>
+            </nav>
+
+            <div class="d-lg-flex justify-content-between mt-5">
+                <div class="titulo-mobile">
+                    <h2 class="text-white">
+                        Descubra a verdadeira
+                        arte digital e
+                        colecione diversas
+                        <span class="text-danger">NFTs</span>
+                    </h2>
+                </div>
+                <div class="paragrafo-mobile mt-4">
+                    <p class="m-0 p-0 text-white">
+                        Mercado digital para colecionáveis em
+                        criptos e tokens não fungível (NFT).
+                        Compre, venda e descubra ativos digitais
+                        exclusivos para você.
+                    </p>
+                    <div class="d-flex mt-3">
+                        <img src="assets/group-avarts.png" alt="Artistas">
+                        <div class="d-flex align-items-end ml-2">
+                            <p class="text-white m-0">
+                                <span class="font-weight-bold">+10</span> <br> Artistas Selecionados
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="paragrafo-desktop">
+                    <p class="m-0 p-0 text-white">
+                        Mercado digital para colecionáveis em <br>
+                        criptos e tokens não fungível (NFT). <br>
+                        Compre, venda e descubra ativos digitais <br>
+                        exclusivos para você.
+                    </p>
+                    <div class="d-flex mt-3">
+                        <img src="assets/group-avarts.png" alt="Artistas">
+                        <div class="d-flex align-items-end ml-2">
+                            <p class="text-white m-0">
+                                <span class="font-weight-bold">+10</span> <br> Artistas Selecionados
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="titulo-desktop">
+                    <h1 class="text-white">
+                        Descubra a verdadeira <br>
+                        arte digital e <br>
+                        colecione diversas <br>
+                        <span class="text-danger">NFTs</span>
+                    </h1>
+                </div>
+                <div class="explore-a-arte">
+                    <img class="img-fluid" src="assets/badge.svg" alt="Explore a arte">
                 </div>
             </div>
-            <div>
-                <a class="btn btn-light font-weight-bolder" type="button" href="#"><img src="assets/logo_MetaMask.svg"
-                        alt="Wallet MetaMask"> Conectar carteira</a>
+
+                <div class="mt-sm-5 mt-3 row">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-1.png" alt="Foto 1 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-2.png" alt="Foto 2 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-3.png" alt="Foto 3 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-4.png" alt="Foto 4 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-5.png" alt="Foto 4 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-6.png" alt="Foto 5 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-7.png" alt="Foto 6 da galeria">
+                <img class="img-fluid col-md-3 col-6 mt-4" src="assets/galeria-8.png" alt="Foto 7 da galeria">
             </div>
-        </nav> -->
-        <div>
-            <p class="m-0 p-0 text-white">
-                Mercado digital para colecionáveis em criptos e tokens não fungível (NFT).
-                Compre, venda e descubra ativos digitais exclusivos para você.
-            </p>
         </div>
     </div>
+
+    <div class="section-2">
+        <div>
+            <div class="d-flex pb-md-3 px-0 py-0 mx-0">
+                <div class="col-lg-2 col-sm-3 pl-md-4 pl-0 px-md-5 px-3 py-5" id="numeros-arte-desktop" style="border-bottom: #5A5757 solid 1px;">
+                    <div class="pt-5 pb-4">
+                        <h1 class="text-white pb-0 mb-0">10K+</h1>
+                        <h5 class="pt-0 mt-0 font-weight-bolder">Artes</h5>
+                    </div>
+
+                    <div class="pb-4">
+                        <h1 class="text-white pb-0 mb-0">200+</h1>
+                        <h5 class="pt-0 mt-0 font-weight-bolder">Vendas</h5>
+                    </div>
+
+                    <div>
+                        <h1 class="text-white pb-0 mb-0">20</h1>
+                        <h5 class="pt-0 mt-0 font-weight-bolder">Artistas</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 col-sm-9 px-0 pt-5" id="info-arte-desktop" style="border-left: #5A5757 solid 1px;">
+                    <div class="d-md-flex justify-content-between px-5 pb-5">
+                        <div class="pt-3 col-lg-5">
+                            <p class="text-white">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Congue malesuada amet
+                                pretium lacus. Id <a class="text-danger" href="#"><u>ipotenti diam</u></a> et cras odio
+                                viverra. Amet, velit ut hac sit. Enim ultricies
+                                mauris mattis nunc semper.
+                            </p>
+                            <a class="text-white" href="#">
+                                <u>Lorem ipsum</u>
+                            </a>
+                        </div>
+
+                        <div class="pt-3 col-lg-5">
+                            <p class="text-white">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Congue malesuada amet
+                                pretium lacus. Id <a class="text-danger" href="#"><u>ipotenti diam</u></a> et cras odio
+                                viverra. Amet, velit ut hac sit. Enim ultricies
+                                mauris mattis nunc semper.
+                            </p>
+                            <a class="text-white" href="#">
+                                <u>Lorem ipsum</u>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-banner-ate-1390px">
+                        <img class="img-fluid" src="assets/banner.png" alt="">
+                    </div>
+                    <div>
+                        <img src="assets/banner.png" alt="" id="img-banner">
+                    </div>
+                </div>
+
+                <div id="info-arte-mobile">
+                    <div class="pl-3 pt-5 pb-4" style="border-bottom: #5A5757 solid 1px; border-right: #5A5757 solid 1px">
+                        <div class="pr-4 ">
+                            <h1 class="text-white pb-0 mb-0">10K+</h1>
+                            <p class="pt-0 mt-0 font-weight-bolder">Artes</p>
+                        </div>
+
+                        <div class="pr-4">
+                            <h1 class="text-white pb-0 mb-0">200+</h1>
+                            <p class="pt-0 mt-0 font-weight-bolder">Vendas</p>
+                        </div>
+
+                        <div>
+                            <h1 class="text-white pb-0 mb-0">20</h1>
+                            <p class="pt-0 mt-0 font-weight-bolder">Artistas</p>
+                        </div>
+                    </div>
+
+                    <div class="d-md-flex justify-content-between px-3 pt-5">
+                        <div class="pt-3 pb-3">
+                            <p class="text-white">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Congue malesuada amet
+                                pretium lacus. Id <a class="text-danger" href="#"><u>ipotenti diam</u></a> et cras odio
+                                viverra. Amet, velit ut hac sit. Enim ultricies
+                                mauris mattis nunc semper.
+                            </p>
+                            <a class="text-white" href="#">
+                                <u>Lorem ipsum</u>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="px-md-5 mt-md-5 px-3 mt-5">
+            <h1 class="text-white text-center mb-5" id="h1-populares-da-semana">
+                <span class="text-danger">Populares</span> da semana
+            </h1>
+            <div>
+                <div class="d-sm-flex justify-content-between" id="populares-da-semana">
+                    <div class="pt-md-5 " id="img-galery">
+                        <div class="d-flex justify-content-between mb-3">
+                            <h3 class="text-white">
+                                Astronauta 1
+                            </h3>
+                            <a href="#">
+                            <h3 id="links">
+                                <i class="bi bi-arrow-up-right"></i>
+                            </h3>
+                        </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="m-0 p-0 font-weight-bolder">
+                             Lucas P.
+                            </h5>
+                            <h5 class="text-danger m-0 p-0">
+                                1.50 RKT
+                            </h5>
+                        </div>
+                        <div>
+                            <img class="img-fluid mt-4" src="assets/astronauta 1.png" alt="Foto 7 da galeria">
+                        </div>
+                    </div>
+                    <div class="mx-3" style="border-right: #5A5757 solid 1px;"></div>
+                    <div class="pt-md-5" id="img-galery" id="populares-da-semana">
+                        <div class="d-flex justify-content-between mb-3">
+                            <h3 class="text-white">
+                                Astronauta 2
+                            </h3>
+                            <a href="#">
+                                <h3 id="links">
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="m-0 p-0 font-weight-bolder">
+                                Sofia G.
+                            </h5>
+                            <h5 class="text-danger m-0 p-0">
+                                2.0 RKT
+                            </h5>
+                        </div>
+                        <div>
+                            <img class="img-fluid mt-4" src="assets/astronauta-2.png" alt="Foto 7 da galeria">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-sm-flex justify-content-between" id="populares-da-semana">
+                    <div class="pt-md-5" id="img-galery">
+                        <div class="d-flex justify-content-between mb-3 pt-sm-4">
+                            <h3 class="text-white">
+                                Astronauta 3
+                            </h3>
+                            <a href="#">
+                                <h3 id="links">
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="m-0 p-0 font-weight-bolder">
+                                Pedro A.
+                            </h5>
+                            <h6 class="text-danger m-0 p-0">
+                                3.75 RKT
+                            </h5>
+                        </div>
+                        <div>
+                            <img class="img-fluid mt-4" src="assets/astronauta-3.png" alt="Foto 7 da galeria">
+                        </div>
+                    </div>
+                    <div class="mx-3" style="border-right: #5A5757 solid 1px;"></div>
+                    <div class="pt-md-5" id="img-galery" id="populares-da-semana">
+                        <div class="d-flex justify-content-between mb-3 pt-sm-4">
+                            <h3 class="text-white">
+                                Astronauta 4
+                            </h3>
+                            <a href="#">
+                                <h3 id="links">
+                                    <i class="bi bi-arrow-up-right"></i>
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h5 class="m-0 p-0 font-weight-bolder">
+                                João S.
+                            </h5>
+                            <h5 class="text-danger m-0 p-0">
+                                4.30 RKT
+                            </h5>
+                        </div>
+                        <div>
+                            <img class="img-fluid mt-4" src="assets/astronauta-4.png" alt="Foto 7 da galeria">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-md-4 pt-5 pb-5">
+            <h1 class="text-white text-center mb-5">
+                <span class="text-danger">Melhores</span> artistas
+            </h1>
+            <div class="row d-flex justify-content-md-between justify-content-center mx-md-5 mx-3" id="melhores-artistas-all">
+                <div class="d-flex justify-content-center col-md-4 col-12 px-0 py-0 pb-md-3 mb-5 mx-lg-1"
+                    id="card-melhores-artistas">
+                    <div class="d-flex align-items-center pt-3 px-4" id="melhores-artistas-info">
+                        <img src="assets/artista-1.png" alt="Artista">
+                        <div class="pl-4">
+                            <h5 class="text-white">Lucas P.</h5>
+                            <h5 class="text-danger mb-0">80 Fotografias</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center col-md-4 col-12 px-0 py-0 pb-md-3 mb-5  mx-lg-1"
+                    id="card-melhores-artistas" style="background-color: #FF5B50;">
+                    <div class="d-flex align-items-center pt-3 px-4"  id="melhores-artistas-info">
+                        <img src="assets/artista-2.png" alt="Artista">
+                        <div class="pl-4">
+                            <h5 class="text-white">Sofia G.</h5>
+                            <h5 class="text-white mb-0">99 Fotografias</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center col-md-4 col-12 px-0 py-0 pb-md-3 mb-5  mx-lg-1"
+                    id="card-melhores-artistas">
+                    <div class="d-flex align-items-center pt-3 px-4" id="melhores-artistas-info">
+                        <img src="assets/artista-3.png" alt="Artista">
+                        <div class="pl-4">
+                            <h5 class="text-white">Pedro A.</h5>
+                            <h5 class="text-danger mb-0">50 Fotografias</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex justify-content-center col-md-4 col-12 px-0 py-0 pb-md-3 mb-5 mx-lg-1"
+                    id="card-melhores-artistas">
+                    <div class="d-flex align-items-center pt-3 px-4"  id="melhores-artistas-info">
+                        <img src="assets/artista-4.png" alt="Artista">
+                        <div class="pl-4">
+                            <h5 class="text-white">Laura O.</h5>
+                            <h5 class="text-danger mb-0">43 Fotografias</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center col-md-4 col-12 px-0 py-0 pb-md-3 mb-5 mx-lg-1"
+                    id="card-melhores-artistas">
+                    <div class="d-flex align-items-center pt-3 px-4"  id="melhores-artistas-info">
+                        <img src="assets/artista-5.png" alt="Artista">
+                        <div class="pl-4">
+                            <h5 class="text-white">Isabela S.</h5>
+                            <h5 class="text-danger mb-0">28 Fotografias</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center col-md-4 col-12 px-0 py-0 pb-md-3 mb-5 mx-lg-1"
+                    id="card-melhores-artistas">
+                    <div class="d-flex align-items-center pt-3 px-4"  id="melhores-artistas-info">
+                        <img src="assets/artista-6.png" alt="Artista">
+                        <div class="pl-4">
+                            <h5 class="text-white">João S.</h5>
+                            <h5 class="text-danger mb-0">20 Fotografias</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="d-flex justify-content-center" id="artistas-all">Ver todos os artistas
+                <span class="text-danger ml-3"><i class="bi bi-arrow-up-right"></i></span>
+            </a>
+        </div>
+    </div>
+
+    <div class="pt-5" id="footer">
+        <div class="d-flex justify-content-between align-items-center px-md-5 px-3 pb-5">
+            <div>
+                <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/logo.svg"
+                        alt="Logo Rocket NFTs"></a>
+            </div>
+            <a href="#section-1" type="button" class="btn btn-danger px-0 py-0">
+                <h3 class="text-body font-weight-bold px-3 py-3 mb-0">
+                    <i class="bi bi-arrow-up"></i>
+                </h3>
+            </a>
+        </div>
+
+        <div class="row mx-0" id="cadastro-info-footer">
+            <div class="col-lg-4 col-md-6 col-12 px-md-5 px-3 py-5"  style="border-top: #5A5757 solid 1px; border-bottom: #5A5757 solid 1px;">
+                <div class="col-sm-11 px-0">
+                    <h3 class="text-white font-weight-normal">
+                        Fique por dentro de <span class="text-danger">todas as novidades</span>
+                    </h3>
+                    <div class="input-group pt-3" id="input-email-footer">
+                        <input type="text" class="form-control border-0" placeholder="Digite o seu e-mail..."
+                            aria-label="Recipient's username" aria-describedby="button-addon2"
+                            style="background-color: black;">
+                        <div class="input-group-append">
+                            <button class="btn btn-light font-weight-bolder" type="button">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-6 col-12 d-flex justify-content-between px-3 py-5 mb-0" id="infos" style="border-top: #5A5757 solid 1px; border-bottom: #5A5757 solid 1px; border-left: #5A5757 solid 1px;">
+                <div class="pl-md-5 pr-md-2 pl-3 pr-2">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 pt-0 pb-1">
+                            <h5 class="py-0 my-0">Empresa</h5>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Sobre</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Serviços</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Time</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Carreira</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="px-md-3 px-2">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 pt-0 pb-1">
+                            <h5 class="py-0 my-0">Mapa</h5>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Galeria</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Populares</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Vendas</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="pr-md-5 pl-md-2 pl-2 pr-3">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 pt-0 pb-1">
+                            <h5 class="py-0 my-0">Links</h5>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">FAQs</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Termos</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Política</a>
+                        </li>
+                        <li class="list-group-item text-white bg-transparent border-0 px-0 py-1">
+                            <a class="links-footer" href="#">Ajuda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between px-md-5 px-3 py-4">
+            <div class="d-flex align-items-center">
+                <a class="links-footer" href="#">
+                    <h5 class="font-weight-normal">www.meusite.com</h5>
+                </a>
+            </div>
+            <div class="d-flex">
+                <a class="links-footer" href="#">
+                    <h4 class="px-md-3 px-2"><span><i class="bi bi-instagram"></i></span></h4>
+                </a>
+                <a class="links-footer" href="#">
+                    <h4 class="px-md-3 px-2"><span><i class="bi bi-youtube"></i></span></h4>
+                </a>
+                <a class="links-footer" href="#">
+                    <h4 class="px-md-3 px-2"><span><i class="bi bi-twitter-x"></i></span></h4>
+                </a>
+                <a class="links-footer" href="#">
+                    <h4 class="px-md-3 px-2"><span><i class="bi bi-envelope"></i></span></h4>
+                </a>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
